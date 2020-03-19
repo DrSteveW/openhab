@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Container>
+<Container version="2">
   <Name>openhab_test</Name>
-  <Description>openHAB - a vendor and technology agnostic open source automation software for your home.</Description>
+  <Overview>openHAB - a vendor and technology agnostic open source automation software for your home.</Overview>
   <Registry>https://hub.docker.com/r/openhab/openhab/</Registry>
   <Repository>openhab/openhab:latest</Repository>
+  <Network>host</Network>
+  <MyIP></MyIP>
+  <Shell>sh</Shell>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
+  <Support></Support>
+  <Project></Project>
   <Environment/>
   <Networking>
     <Mode>host</Mode>
@@ -44,8 +49,9 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Version>0.2</Version>
+  <Version></Version>
   <WebUI>http://[IP]:9080/</WebUI>
+  <ExtraParams>--tty --shm-size 2g</ExtraParams>
   <Banner>https://raw.githubusercontent.com/DrSteveW/openhab/master/openhab_banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/DrSteveW/openhab/master/openhab-logo-square.png</Icon>
   <Beta>False</Beta>
