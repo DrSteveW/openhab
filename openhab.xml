@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>openhab-online</Name>
+  <Name>openhab_test</Name>
   <Description>openHAB - a vendor and technology agnostic open source automation software for your home.</Description>
   <Registry>https://hub.docker.com/r/openhab/openhab/</Registry>
   <Repository>openhab/openhab:latest</Repository>
@@ -34,13 +34,13 @@
       <Mode>ro</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/openhab/conf/</HostDir>
+      <HostDir>/mnt/user/appdata/openhabtest/conf/</HostDir>
       <ContainerDir>/openhab/conf</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/user/appdata/openhabtest/userdata/</HostDir>
-      <ContainerDir>/openhabtest/userdata</ContainerDir>
+      <ContainerDir>/openhab/userdata</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
