@@ -44,7 +44,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Version></Version>
+  <Version>0.2</Version>
   <WebUI>http://[IP]:9080/</WebUI>
   <Banner>https://raw.githubusercontent.com/DrSteveW/openhab/master/openhab_banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/DrSteveW/openhab/master/openhab-logo-square.png</Icon>
