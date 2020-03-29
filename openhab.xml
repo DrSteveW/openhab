@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>openhab_port_test</Name>
+  <Name>OpenHAB Unraid</Name>
   <Description>openHAB - a vendor and technology agnostic open source automation software for your home.</Description>
   <Registry>https://hub.docker.com/r/openhab/openhab/</Registry>
   <Repository>openhab/openhab:latest</Repository>
@@ -17,12 +17,12 @@
       <Mode>ro</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/openhabtest/conf/</HostDir>
+      <HostDir>/mnt/user/appdata/openhab2/conf/</HostDir>
       <ContainerDir>/openhab/conf</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/openhabtest/userdata/</HostDir>
+      <HostDir>/mnt/user/appdata/openhab2/userdata/</HostDir>
       <ContainerDir>/openhab/userdata</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
