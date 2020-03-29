@@ -9,23 +9,6 @@
   <Environment/>
   <Networking>
     <Mode>host</Mode>
-    <Publish>
-      <Port>
-        <HostPort>9080</HostPort>
-        <ContainerPort>8080</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>9443</HostPort>
-        <ContainerPort>8443</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>5555</HostPort>
-        <ContainerPort>5555</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
   </Networking>
   <Data>
     <Volume>
@@ -45,7 +28,7 @@
     </Volume>
   </Data>
   <Version></Version>
-  <WebUI>http://[IP]:[PORT:9080]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Banner>https://raw.githubusercontent.com/DrSteveW/openhab/master/openhab_banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/DrSteveW/openhab/master/openhab-logo-square.png</Icon>
   <ExtraParams>--tty --shm-size 2g</ExtraParams>
